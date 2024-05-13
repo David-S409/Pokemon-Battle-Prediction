@@ -45,17 +45,18 @@ The project uses two datasets obtained from Kaggle:
     git clone https://github.com/David-S409/Pokemon-Battle-Prediction
     ```
 
-2. Build the ML model:
-
-    ```bash
-    python data_parse.py
-    ```
-
 2. Install dependencies:
     
     ```bash
     pip install -r requirements.txt
     ```
+
+2. Build the ML model:
+
+   ```bash
+   python data_parse.py
+    ```
+
 3. Run the prediction script:
 
     ```bash
