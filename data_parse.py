@@ -126,6 +126,6 @@ y_pred = model.predict(X_test)
 # print(f"Accuracy: {accuracy:.2f}")
 
 # save the model
-# joblib.dump(model, "./models/battle_model.pkl")
+joblib.dump(model, "./models/battle_model.pkl")
 
 calculate_validation_matrix(model, X, y)
